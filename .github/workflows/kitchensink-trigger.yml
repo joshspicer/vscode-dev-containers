@@ -13,5 +13,5 @@ jobs:
           uses: Azure/pipelines@v1
           with:
             azure-devops-project-url: https://dev.azure.com/devdiv/DevDiv
-            azure-pipeline-name: 'codespaces-kitchensink-release-TEST'
+            azure-pipeline-name: 'codespaces-vmagent-local-component-tests'
             azure-devops-token: ${{ secrets.AZURE_DEVOPS_TOKEN }}
